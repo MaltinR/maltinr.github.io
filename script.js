@@ -158,6 +158,20 @@ const data = {
       }
     },
     {
+      title: "Phrasal Verb Challenge",
+      descriptionEn: "In this assignment, I was mainly responsible for the layout design and also participated in discussions about the user experience. We have referenced learning apps on the market, and agreed that the complexity of the operation will affect the user's use and learning time, so we designed the gameplay centering on the principle of \"one-handed control\".",
+      descriptionZh: `在這一個作業項目中，我主要負責版面設計，亦參與了有關用家體驗的討論。我們參考了市面上有關學習的應用程式，一致認為操作複雜性會影響用家的使用及學習時間，因此我們以「能以單手操控」的原則為中心設計玩法。`,
+      langTags: ["Java",],
+      appTags: ["Android Studio",],
+      techTags: ["Android",],
+      links: {
+        image: {
+          path:"phrasal_verb_challenge.png",
+          alt:"Screenshots of Phrasal Verb Challenge",
+        },
+      }
+    },
+    {
       title: "Web Portfolio",
       descriptionEn: "The Web Portfolio is the web page you are currently browsing. In this web page, I demonstrate my skills and portfolio. The web page is designed, developed and programmed by myself, such as color matching, font style, layout and other elements.",
       descriptionZh: `Web Portfolio正是你目前正在瀏覽的網頁，在這個網頁中，我演示了我的技能以及作品集，網頁是由我本人設計、開發及編程，例如配色，字體風格，版面等等的元素。`,
