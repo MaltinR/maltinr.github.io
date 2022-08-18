@@ -74,7 +74,8 @@ const data = {
       techTags: ["Path finding","Game design","Room generation","Modeling","Program structure"],
       links: {
         youtube: "ElA-x8C3uGc",
-      }
+        sites: [{name: "SIG Playful Media 2022", url: "http://playfulmedia.hk/2022/Games_4.html" }],
+      },
     },
     {
       title: "Field Of Honour",
