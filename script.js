@@ -133,7 +133,7 @@ const data = {
       }
     },
     {
-      title: "Minwsweeper",
+      title: "Minesweeper",
       descriptionEn: "The game of minesweeper is simple and tests your reasoning ability. But the minesweeper games on the market are generally single-player. I hope to compete with my friends on the same map, so I developed my own version of minesweeper, in which players can enter the same seed code to compete together.",
       descriptionZh: `踩地雷玩法簡單，考驗推理能力。但市面上的踩地雷遊戲普遍都是單人遊玩，我希望可以與朋友在相同的地圖上比拼，因此我開發了一個踩地雷遊戲，當中玩可以輸入相同的種子碼一同競技。`,
       langTags: ["Java",],
