@@ -152,7 +152,7 @@ const data = {
       descriptionZh: `這是課程中的作業，是一個使用SDL Library、雙人開發的遊戲。在這個項目中我主要負責美術及遊戲邏輯，亦參與遊戲技能、玩法、以及遊戲速度的討論。在遊戲中玩家扮演天文台台長，遊戲目標是需要在經濟及市民安全兩者之間取得平衡。隨著遊戲的發展，玩家可以投放資源去升級技能。`,
       langTags: ["C++",],
       appTags: ["SDL",],
-      techTags: ["Game design","PC game", "Artistic desgin"],
+      techTags: ["Game design","PC game", "Artistic design"],
       links: {
         github: "https://github.com/MaltinR/Game-Observatory-Simulator",
         youtube: "8f45Hn6fV7I",
