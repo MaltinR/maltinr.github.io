@@ -8,9 +8,9 @@ html {
   font-size: 62.5%;
 }
 
-body{
+body {
   font-size: 1.8rem;
-  background-color: #222; 
+  background-color: #222;
   color: #63e6be;
   font-family: "Rubik", sans-serif;
   line-height: 1;
@@ -18,7 +18,7 @@ body{
   margin: 0rem;
 }
 
-img{
+img {
   width: 50rem;
 }
 
@@ -27,45 +27,44 @@ img{
   margin: 0 auto;
 }
 
-.section{
+.section {
   margin-bottom: 12.8rem;
 }
 
-.top-part{
-  
+.top-part {
   position: relative;
-  
+
   background-image: linear-gradient(
-    rgba(34, 34, 34, 0.8),
-    rgba(34, 34, 34, 0.8)
-  ),
-  url(images/hero-background.avif);
+      rgba(34, 34, 34, 0.8),
+      rgba(34, 34, 34, 0.8)
+    ),
+    url(images/hero-background.avif);
   background-size: cover;
 }
 
-.lang-select{
+.lang-select {
   text-align: center;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
-.header{
+.header {
   background-color: #5555;
   padding: 0.4rem;
 }
 
-.nav{
+.nav {
   display: flex;
   justify-content: space-around;
 }
 
-.nav-name{
+.nav-name {
   margin-right: auto;
   display: inline-block;
   padding: 1.6rem 2.4rem;
   font-weight: bold;
 }
 
-.nav div{
+.nav div {
   font-size: 1.6rem;
 }
 
@@ -90,7 +89,7 @@ img{
   transition: all 0.2s;
 }
 
-.section-title{
+.section-title {
   font-size: 2.4rem;
   display: inline-block;
   text-transform: uppercase;
@@ -99,31 +98,31 @@ img{
   color: #aaa;
 }
 
-.section-hero{
+.section-hero {
   height: 85vh;
 }
 
-.hero-text-field{
+.hero-text-field {
   margin: 0rem auto;
   text-align: center;
   padding: 12.8rem 0;
 }
 
-.hero-title{
-  font-size: 8.0rem;
+.hero-title {
+  font-size: 8rem;
   font-weight: 600;
   padding: 9.6rem 0;
   margin: 0;
 }
 
-.hero-presentation{
+.hero-presentation {
   font-size: 2.4rem;
   line-height: 1.5;
   color: #ddd;
   font-family: "Ubuntu Mono", sans-serif;
 }
 
-.typewriter-wrap{
+.typewriter-wrap {
   max-width: 85rem;
   margin: auto;
   /* display: block; */
@@ -132,28 +131,35 @@ img{
 
 .typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .2rem solid #e67963; /* The typwriter cursor */
+  border-right: 0.2rem solid #e67963; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15rem; /* Adjust as needed */
-  animation: 
-    typing 2.5s steps(50, end),
-    blink-caret .75s step-end infinite;
+  letter-spacing: 0.15rem; /* Adjust as needed */
+  animation: typing 2.5s steps(50, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #e67963; }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #e67963;
+  }
 }
 
-.grid-skills{
+.grid-skills {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
@@ -161,12 +167,12 @@ img{
   row-gap: 3.2rem;
 }
 
-.skill-box{
+.skill-box {
   background-color: #111;
   display: flex;
 }
 
-.skill-title{
+.skill-title {
   text-align: center;
   font-weight: 400;
   font-size: 1.6rem;
@@ -175,81 +181,87 @@ img{
   flex: 1;
 }
 
-.skill-bar-flex{
+.skill-bar-flex {
   display: flex;
   justify-content: left;
 
   flex: 4;
 }
 
-.skill-bar{
+.skill-bar {
   margin: 0;
   padding: 0;
   width: auto;
 }
 
-.skill-bar--main{
+.skill-bar--main {
   background-color: #59cfab;
-  transition: all 1.0s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
-.skill-bar--main--100{
+.skill-bar--main--100 {
   width: 100%;
 }
-.skill-bar--main--75{
+.skill-bar--main--90 {
+  width: 90%;
+}
+.skill-bar--main--80 {
+  width: 80%;
+}
+.skill-bar--main--75 {
   width: 75%;
 }
-.skill-bar--main--67{
+.skill-bar--main--67 {
   width: 67%;
 }
-.skill-bar--main--50{
+.skill-bar--main--50 {
   width: 50%;
 }
-.skill-bar--main--33{
+.skill-bar--main--33 {
   width: 33%;
 }
-.skill-bar--main--25{
+.skill-bar--main--25 {
   width: 25%;
 }
-.skill-bar--main--0{
+.skill-bar--main--0 {
   width: 0%;
 }
 
-.skill-bar--background{
+.skill-bar--background {
   background-color: #0a1713;
   flex: 1;
 }
 
-.showcase{
-  background-color: #111; 
+.showcase {
+  background-color: #111;
   display: flex;
-  margin-bottom: 8.0rem;
+  margin-bottom: 8rem;
 }
 
-.description{
+.description {
   padding: 3.2rem 3.2rem;
   line-height: 1.5;
 }
 
-.description-title{
+.description-title {
   font-weight: 500;
   font-size: 4.8rem;
   margin: 2.4rem 0 3.2rem 0;
 }
 
-.description-text{
+.description-text {
   font-size: 1.8rem;
   color: #59cfab;
 }
 
-.preview-and-tags{
+.preview-and-tags {
   background-color: #333;
   padding: 0rem;
   display: flex;
   flex-direction: column;
 }
 
-.preview-frame{
+.preview-frame {
   position: relative;
   min-width: 50rem;
   /* min-height: 26rem; */
@@ -258,7 +270,7 @@ img{
   width: 100%;
 }
 
-.preview{
+.preview {
   object-fit: cover;
   position: absolute;
   top: 0;
@@ -269,17 +281,17 @@ img{
   height: 100%;
 }
 
-.flex-first{
+.flex-first {
   order: -1;
 }
 
-.tags{
+.tags {
   padding-left: 1.2rem;
   padding-top: 0.8rem;
   padding-bottom: 3.2rem;
 }
 
-.tag{
+.tag {
   color: #111;
   display: inline-block;
   background-color: aqua;
@@ -290,37 +302,36 @@ img{
   margin-right: 0.8rem;
 }
 
-
-.tag-language{
+.tag-language {
   background-color: aqua;
 }
 
-.tag-software{
+.tag-software {
   background-color: magenta;
 }
 
-.tag-tech{
-  background-color:chartreuse;
+.tag-tech {
+  background-color: chartreuse;
 }
 
-.related{
+.related {
   margin-top: auto;
   background-color: #292929;
-  
+
   padding: 1.6rem 1.2rem;
 }
 
 .related a:link,
 .related a:visited,
 .related a:hover,
-.related a:active{
+.related a:active {
   color: #ccc;
   text-decoration: underline;
   display: inline-block;
   padding: 0.4rem 0;
 }
 
-.footer{
+.footer {
   background-color: #333;
   margin-top: 12.8rem;
   padding: 0.8rem 0 4.8rem 0;
@@ -328,12 +339,11 @@ img{
   font-size: 1.6rem;
 }
 
-.footer-contacts{
-
+.footer-contacts {
   display: flex;
   justify-content: right;
   gap: 3.2rem;
-  
+
   color: #999;
 }
 
@@ -355,23 +365,22 @@ img{
 
 /* Media */
 
-
 /* 1100 */
 @media (max-width: 69rem) {
-  .description-title{
+  .description-title {
     font-size: 3.2rem;
     margin: 0;
   }
-  .skill-title{
+  .skill-title {
     font-size: 1.2rem;
   }
-  .container{
+  .container {
     max-width: 90rem;
   }
-  .hero-title{
+  .hero-title {
     font-size: 6.4rem;
   }
-  .preview-frame{
+  .preview-frame {
     position: relative;
     min-width: 40rem;
   }
@@ -379,69 +388,69 @@ img{
 
 /* 1000 */
 @media (max-width: 63rem) {
-  .description-title{
+  .description-title {
     font-size: 2.4rem;
   }
 }
 
 /* 900 */
 @media (max-width: 56rem) {
-  .showcase{
+  .showcase {
     flex-direction: column;
     max-width: 65rem;
     margin: 0 auto;
     margin-bottom: 4rem;
   }
-  .grid-skills{
+  .grid-skills {
     grid-template-columns: 1fr;
     row-gap: 1.6rem;
     padding: 0.4rem;
   }
-  .container{
+  .container {
     max-width: 65rem;
   }
-  .hero-title{
+  .hero-title {
     font-size: 4.8rem;
     padding: 4.8rem 0;
   }
-  .hero-presentation{
+  .hero-presentation {
     font-size: 1.6rem;
   }
-  .description-text{
+  .description-text {
     font-size: 1.6rem;
   }
   .section {
     margin-bottom: 3.2rem;
   }
-  .footer{
+  .footer {
     margin-top: 3.2rem;
   }
-  .preview-and-tags{
+  .preview-and-tags {
     order: -1;
   }
-  .related{
+  .related {
     margin-top: auto;
     background-color: #333;
     padding: 0.8rem 1.2rem;
   }
-  .tags{
+  .tags {
     padding-bottom: 0;
   }
-  .typewriter-wrap{
+  .typewriter-wrap {
     max-width: 60rem;
   }
-  .section-hero{
+  .section-hero {
     height: 55vh;
   }
 }
 
 /* 650 */
 @media (max-width: 41rem) {
-  .nav{
+  .nav {
     flex-direction: column;
     align-items: center;
   }
-  .nav-name{
+  .nav-name {
     margin: 0;
   }
   .section-hero {
@@ -450,25 +459,25 @@ img{
   .hero-text-field {
     padding: 0;
   }
-  .hero-title{
+  .hero-title {
     font-size: 3.2rem;
   }
-  .hero-presentation{
+  .hero-presentation {
     font-size: 1.2rem;
   }
-  .footer-contacts{
+  .footer-contacts {
     flex-direction: column;
     gap: 0;
     align-items: center;
   }
-  .footer-link{
+  .footer-link {
     margin: 0;
   }
-  .section-title{
+  .section-title {
     text-align: center;
     display: block;
   }
-  .typewriter-wrap{
+  .typewriter-wrap {
     max-width: 50rem;
   }
 }
@@ -476,11 +485,11 @@ img{
 /* 550 */
 
 @media (max-width: 35rem) {
-  .preview-frame{
+  .preview-frame {
     position: relative;
     min-width: 32rem;
   }
-  .typewriter{
+  .typewriter {
     white-space: inherit;
     animation: none;
   }
@@ -488,7 +497,7 @@ img{
 
 /* 450 */
 @media (max-width: 35rem) {
-  .skill-title{
+  .skill-title {
     flex: 1.5;
     padding: 0.4rem;
   }
